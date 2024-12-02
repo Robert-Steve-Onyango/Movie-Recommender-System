@@ -123,8 +123,8 @@ streamlit run app.py
 
 
 ```bash
-Author: Bappy Ahmed
+Author: Robert Steve Onyango
 Data Scientist
-Email: entbappy73@gmail.com
+Email: robert.steve.onyango@gmail.com
 
 ```

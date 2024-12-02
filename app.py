@@ -1,12 +1,7 @@
-'''
-Author: Bappy Ahmed
-Email: entbappy73@gmail.com
-Date: 2021-Nov-15
-'''
-
 import pickle
 import streamlit as st
 import requests
+import pandas as pd
 
 def fetch_poster(movie_id):
     url = "https://api.themoviedb.org/3/movie/{}?api_key=8265bd1679663a7ea12ac168da84d2e8&language=en-US".format(movie_id)
@@ -31,7 +26,7 @@ def recommend(movie):
 
 
 st.header('Movie Recommender System Using Machine Learning')
-movies = pickle.load(open('artifacts/movie_list.pkl','rb'))
+movies = pd.read_csv('artifacts/movie_list.csv')
 similarity = pickle.load(open('artifacts/similarity.pkl','rb'))
 
 movie_list = movies['title'].values
