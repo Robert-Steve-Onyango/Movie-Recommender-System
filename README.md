@@ -64,3 +64,8 @@ The datasets (`tmdb_5000_movies.csv` and `tmdb_5000_credits.csv`) can be accesse
 
 Place the downloaded files in the `csv/` directory.
 
+## In the Project
+
+* Robert Steve Onyango
+* Victor Sabare Oketch
+* Nelie Nyaboke
